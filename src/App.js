@@ -1,6 +1,7 @@
 
 import './App.css';
 import Container from './components/Container';
+import './assets/sass/main.scss'
 
 function App() {
   return (

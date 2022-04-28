@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
 import IconStar from "../assets/images/icon-star.svg";
-import Text from "./Text"
+import Text from "./Text";
+import '../assets/sass/main.scss'
+
+
+
 function Container() {
   return (
-    <div>
-     <img src={IconStar} alt="IconStar" />
+    <div className='container-rating'>
+    <div className='icon-circle'>
+     <img src={IconStar} alt="IconStar" className='icon' />
+     </div>
      <Text/>
     </div>
   )
